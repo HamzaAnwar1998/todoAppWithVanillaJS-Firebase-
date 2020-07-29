@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Open Sans', serif;
+}
+
+.my-container {
+    width: 100%;
+    height: auto;
+    background: #0170ad;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e4e4;
+    margin: 3px;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.todo-box button {
+    color: red;
+    border: hidden;
+    outline: none !important;
+    cursor: pointer;
+}
